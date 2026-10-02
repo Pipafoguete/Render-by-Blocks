@@ -98,16 +98,14 @@ The addon organizes generated files inside the configured output directory.
 The structure is:
 
 ```text
-RENDER_BLOCOS/
-├── VIDEOS/
-│   ├── Video_01.mp4
-│   ├── Video_02.mp4
-│   ├── Video_03.1.mp4
-│   ├── Video_03.2.mp4
-│   └── Video_COMPLETO.mp4
-│
-└── .RPB_TEMP/
-    └── temporary rendering data
+ VIDEOS/
+├── Video_01.mp4
+├── Video_02.mp4
+├── Video_03.1.mp4
+├── Video_03.2.mp4
+└── Video_COMPLETO.mp4
+.RPB_TEMP/
+ └── temporary rendering data
 ```
 
 ### `VIDEOS`
