@@ -166,7 +166,7 @@ Current addon version:
 
 ## Author
 
-**Gabe**
+**Pipafoguete**
 
 ## License
 
