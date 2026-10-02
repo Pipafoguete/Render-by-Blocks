@@ -1,6 +1,6 @@
 bl_info = {
     "name": "Render by Blocks",
-    "author": "Gabe",
+    "author": "Pipafoguete",
     "version": (2, 1, 0),
     "blender": (5, 2, 0),
     "location": "Properties > Output > Render by Blocks",
