@@ -98,7 +98,7 @@ The addon organizes generated files inside the configured output directory.
 The structure is:
 
 ```text
-RENDER_BLOCOS/
+RENDER_BLOCKS/
 ├── VIDEOS/
 │   ├── Video_01.mp4
 │   ├── Video_02.mp4
@@ -139,8 +139,8 @@ Blender 5.x separates the media type from the image/video format. The addon hand
 The repository is organized as follows:
 
 ```text
-Render-por-Blocos/
-├── Render_por_Blocos/
+Render-by-Blocks/
+├── Render by Blocks/
 │   └── __init__.py
 ├── README.md
 ├── LICENSE
@@ -153,7 +153,7 @@ Render-por-Blocos/
 The main addon code is located in:
 
 ```text
-Render_por_Blocos/__init__.py
+Render by Blocks/__init__.py
 ```
 
 The addon uses Blender's Python API and registers its operators, properties, panels, handlers, and keymaps through the standard Blender addon registration system.
