@@ -140,7 +140,7 @@ The repository is organized as follows:
 
 ```text
 Render-by-Blocks/
-├── Render by Blocks/
+├── Render_by_Blocks/
 │   └── __init__.py
 ├── README.md
 ├── LICENSE
@@ -153,7 +153,7 @@ Render-by-Blocks/
 The main addon code is located in:
 
 ```text
-Render by Blocks/__init__.py
+Render_by_Blocks/__init__.py
 ```
 
 The addon uses Blender's Python API and registers its operators, properties, panels, handlers, and keymaps through the standard Blender addon registration system.
