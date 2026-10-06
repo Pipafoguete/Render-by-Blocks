@@ -40,7 +40,7 @@ import subprocess
 # ============================================================
 
 ADDON_NAME = "Render by Blocks"
-ADDON_AUTHOR = "Gabe"
+ADDON_AUTHOR = "Pipafoguete"
 ADDON_VERSION = (2, 1, 0)
 
 # ------------------------------------------------------------
@@ -1659,7 +1659,7 @@ class RPB_PT_Main(bpy.types.Panel):
                 if manual:
                     row = block_box.row(align=True)
                     row.prop(block, "start_frame", text="Start")
-                    row.prop(block, "end_frame", text="Fim")
+                    row.prop(block, "end_frame", text="End")
                     remove = row.operator("rpb.remove_block", text="", icon="X")
                     remove.index = i
                 else:
