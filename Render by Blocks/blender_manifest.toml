@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "render_by_blocks"
+version = "2.1.0"
+name = "Render by Blocks"
+tagline = "Render animations in blocks with safe pause and resume"
+maintainer = "Pipafoguete"
+type = "add-on"
+
+blender_version_min = "5.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+website = "https://github.com/Pipafoguete/Render-by-Blocks"
+
+tags = ["Render", "Animation"]
+
+[permissions]
+files = "Read and write rendered video files and temporary render data"
